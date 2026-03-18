@@ -21,7 +21,7 @@ See `summative/linear_regression/multivariate.ipynb` for full analysis.
 
 A REST API built with FastAPI that serves predictions from the trained Random Forest model.
 
-**API URL:** https://linear-regression-model-rk6z.onrender.com
+**API URL:** https://linear-regression-model-05uj.onrender.com/docs#/default/predict_predict_post
 
 ### Endpoints
 | Method | Path | Description |
