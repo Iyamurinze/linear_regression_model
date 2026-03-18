@@ -119,7 +119,7 @@ app.add_middleware(
         "http://localhost:3000",
         "http://localhost:8000",
         "http://localhost:5173",
-        "https://linear-regression-model-rk6z.onrender.com",
+        "https://linear-regression-model-05uj.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
