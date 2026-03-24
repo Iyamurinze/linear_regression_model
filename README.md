@@ -54,3 +54,16 @@ POST /predict
   "area": 5000.0
 }
 ```
+
+## Part 3: Flutter Mobile App
+
+A Flutter app that connects to the prediction API, allowing farmers to input crop details and get yield predictions on mobile.
+
+### Run the App
+```bash
+cd summative/FlutterApp/my_app
+flutter pub get
+flutter run
+```
+
+> Requires [Flutter SDK](https://docs.flutter.dev/get-started/install) installed. Use `flutter run -d chrome` for web or connect a device/emulator for mobile.
