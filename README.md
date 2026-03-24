@@ -31,12 +31,6 @@ A REST API built with FastAPI that serves predictions from the trained Random Fo
 | POST | `/retrain` | Retrain model with new CSV data |
 | GET | `/docs` | Interactive Swagger UI |
 
-### Run Locally
-```bash
-cd summative/API
-pip install -r requirements.txt
-uvicorn prediction:app --reload
-```
 
 ### Example Request
 ```json
