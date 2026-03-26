@@ -4,10 +4,6 @@
 
 **Problem:** Farmers in Sub-Saharan Africa lack data-driven tools to predict crop yield based on their region, crop type, and farming method (rain-fed vs irrigated). This model predicts yield (tons/hectare) so farmers can choose the best production systems for their conditions.
 
-## Dataset
-
-Source: [Africa Food Production Data v1.0](https://github.com/ALU-BSE/summative-linear-regression/blob/main/dataSet/Africa%20Data%20v1.0.csv) — 203,125 records across 32 African countries covering crop yields, areas, and production systems.
-
 ## Part 1: Model Training (Notebook)
 
 Three models were trained and compared:
@@ -22,15 +18,6 @@ See `summative/linear_regression/multivariate.ipynb` for full analysis.
 A REST API built with FastAPI that serves predictions from the trained Random Forest model.
 
 **API URL:** https://linear-regression-model-05uj.onrender.com/docs#/default/predict_predict_post
-
-### Endpoints
-| Method | Path | Description |
-|--------|------|-------------|
-| GET | `/` | Welcome message |
-| POST | `/predict` | Predict crop yield |
-| POST | `/retrain` | Retrain model with new CSV data |
-| GET | `/docs` | Interactive Swagger UI |
-
 
 ### Example Request
 ```json
@@ -61,3 +48,6 @@ flutter run
 ```
 
 > Requires [Flutter SDK](https://docs.flutter.dev/get-started/install) installed. Use `flutter run -d chrome` for web or connect a device/emulator for mobile.
+
+### Demo link
+https://youtu.be/9M-RTUzjTxs
