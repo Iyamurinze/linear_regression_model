@@ -50,4 +50,4 @@ flutter run
 > Requires [Flutter SDK](https://docs.flutter.dev/get-started/install) installed. Use `flutter run -d chrome` for web or connect a device/emulator for mobile.
 
 ### Demo link
-https://youtu.be/9M-RTUzjTxs
+https://youtu.be/2gSbUzFqpMA
